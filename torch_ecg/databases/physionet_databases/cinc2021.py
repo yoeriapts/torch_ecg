@@ -890,8 +890,8 @@ class CINC2021(PhysioNetDataBase):
             ann_dict["nb_leads"],
             ann_dict["fs"],
             ann_dict["nb_samples"],
-            ann_dict["datetime"],
-            daytime,
+            #ann_dict["datetime"],
+            #daytime,
         ) = header_data[0].split(" ")
 
         ann_dict["nb_leads"] = int(ann_dict["nb_leads"])
