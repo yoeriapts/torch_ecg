@@ -145,9 +145,6 @@ checkpoints
 log
 .zip
 
-# notebooks are ignored by default
-# notebooks that are not ignored should be specified
-*.ipynb
 
 # dl models
 *.h5
